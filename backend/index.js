@@ -39,7 +39,7 @@ app.use(
 );
 
 const dburl =
-  "mongodb+srv://nithinambati2:0WQhxGRyf3tdKTwN@cluster0.9qpuxmc.mongodb.net/books_store?retryWrites=true&w=majority";
+  "mongodb+srv://meghana7:VJLlKcTEAlpydp61@cluster0.xymlkpo.mongodb.net/books_store?retryWrites=true&w=majority";
 mongoose
   .connect(dburl, { useNewUrlParser: true })
   .then(() => {

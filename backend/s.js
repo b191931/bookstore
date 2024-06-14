@@ -28,7 +28,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 const dburl =
-  "mongodb+srv://nithinambati2:0WQhxGRyf3tdKTwN@cluster0.9qpuxmc.mongodb.net/books_store?retryWrites=true&w=majority";
+  "mongodb+srv://meghana7:VJLlKcTEAlpydp61@cluster0.xymlkpo.mongodb.net/ProjectLoginData?retryWrites=true&w=majority";
 //const dburl="mongodb+srv://Prashanth:Stevesmith%4012%2B@cluster0.6ioio77.mongodb.net/ProjectLoginData?retryWrites=true&w=majority";
 mongoose
   .connect(dburl, { useNewUrlParser: true })
